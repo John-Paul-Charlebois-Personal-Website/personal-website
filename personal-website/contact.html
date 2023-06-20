@@ -5,19 +5,33 @@
         <link rel="stylesheet" href="style.css" />
         <!-- styles for this page -->
         <link rel="stylesheet" href="contact.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>John-Paul Charlebois</title>
 </head>
 <body>
     <header>
-        <span class="name">John-Paul Charlebois</span>
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a class="active" href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
+        <div class="header_name">
+            <span class="name">John-Paul Charlebois</span>
+        </div>
+        <div class="navigation_bar">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a class="active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">CONTACT
+              <p class="fa fa-caret-down" id="dropdown_caret" onclick="myFunction()"></p>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="portfolio.html">PORTFOLIO</a>
+            </div>
     </header>
     <main>
         <h1>Contact Information</h1>
