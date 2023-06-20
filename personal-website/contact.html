@@ -4,7 +4,8 @@
         <!-- styles for all pages -->
         <link rel="stylesheet" href="style.css" />
         <!-- styles for this page -->
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="contact.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>John-Paul Charlebois</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
         <div class="navigation_bar">
             <nav class="navigation">
                 <ul>
-                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a class="active" href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,9 +34,30 @@
             </div>
     </header>
     <main>
-        <h1>Life Long Learner.</h1>
-        <h2>A growth mindset and an innate curiosity about the world. Constantly pushing to find more by way of new challenges, ideas, and experiences.</h2>
-        <h3 class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday." <br />- Steve Jobs</h3>
+        <h1>Contact Information</h1>
+        <section class="contact_information">
+            charlebois.jp@gmail.com
+        </section>
+        <h2>Message me!</h2>
+        <section class="message_me">
+            <form action="" id="form">
+                <div>
+                    <label for="name" id="name">Your Name</label>
+                    <input type="text" class="input-field" id="text_input" />
+                </div>
+                <div>
+                    <label for="email" id="email">Your Email</label>
+                    <input type="email" class="input-field" id="email_input" />
+                </div>
+                <div>
+                    <label for="message" id="message">Message</label>
+                    <textarea ></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Send</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <a href="https://linkedin.com" target="_blank">
@@ -46,4 +68,5 @@
         </a>
     </footer>
 </body>
+<script src="javascript.js"></script>
 </html>

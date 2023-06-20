@@ -8,25 +8,40 @@
     <title>John-Paul Charlebois</title>
 </head>
 <body>
-    <header>
+  <header>
+    <div class="header_name">
         <span class="name">John-Paul Charlebois</span>
+    </div>
+    <div class="navigation_bar">
         <nav class="navigation">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a class="active" href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">CONTACT
+          <p class="fa fa-caret-down" id="dropdown_caret" onclick="myFunction()"></p>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="portfolio.html">PORTFOLIO</a>
+        </div>
+</header>
     <main>
         <h1>Projects I've Done</h1>
       <section class="project">
         <h2 class="project-name">
-          The First Project
+          TMM
         </h2>
-        <img src="" alt="*">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at earum fuga harum alias nobis, eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, architecto exercitationem perferendis minus error.</p>
-        <p>Fuga dolore impedit suscipit, vero odit, sequi in deleniti, odio ipsa facere et. Consequatur modi cum ullam adipisci unde amet qui sed odio officia ipsa omnis earum quibusdam, dolor totam?</p>
+        <img src="../images/cargo-ship-operations-container-cargo.jpg" alt="*">
+        <p>Developed logistics operations application that provide an integrated set of facility terminal management tools designed to assist users with the execution requirements and business processes for the management of transportation terminals.</p>
+        <p>Using multi-agent architecture, applying expert load planning knowledge, and creating effective load plans for yard, air, rail, and ship operations.</p>
+        <p>Leveraging Java with Spring MVC back-end, PostgreSQL with Hibernate Model database, Flash front-end.</p>
       </section>
       <section class="project">
         <h2 class="project-name">
