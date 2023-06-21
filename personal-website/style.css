@@ -25,7 +25,7 @@
 .navigation a.active {
     border-bottom: 1px solid #555;
 }
-@media (max-width: 660px) {
+@media (max-width: 730px) {
     .navigation_bar {
         display: none;
     }
@@ -34,7 +34,7 @@
         display: block;
     }
 }
-@media (min-width: 660px) {
+@media (min-width: 730px) {
     .navigation_bar {
         display: inline;
     }
