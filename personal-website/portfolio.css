@@ -1,0 +1,15 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: auto;
+}
+#grid_container img {
+    height: 200px;
+    width: 300px;
+}
+
+@media (min-width: 730px) {
+  #grid_container {
+    grid-template-columns: auto auto;
+  }
+}
+
